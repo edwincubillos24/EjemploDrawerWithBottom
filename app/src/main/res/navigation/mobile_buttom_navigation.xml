@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_buttom_navigation"
+    app:startDestination="@id/frag1BottFragment">
+
+    <fragment
+        android:id="@+id/frag1BottFragment"
+        android:name="com.edwinacubillos.ejemplodrawerwithbottom.ui.frag1bott.Frag1BottFragment"
+        android:label="fragment_bottom1"
+        tools:layout="@layout/fragment_frag1_bott" />
+    <fragment
+        android:id="@+id/frag2BottFragment"
+        android:name="com.edwinacubillos.ejemplodrawerwithbottom.ui.frag2bott.Frag2BottFragment"
+        android:label="fragment_bottom2"
+        tools:layout="@layout/fragment_frag2_bott" />
+</navigation>
